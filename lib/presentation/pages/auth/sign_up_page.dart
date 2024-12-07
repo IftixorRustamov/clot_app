@@ -1,11 +1,12 @@
 import 'package:clot_app/config/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 
-import '../../config/app_responsive.dart';
-import '../../constants/app_colors.dart';
-import '../widgets/auth_back_button_wg.dart';
-import '../widgets/button_auth_wg.dart';
-import '../widgets/input_field_auth_wg.dart';
+import '../../../config/app_responsive.dart';
+import '../../../constants/app_colors.dart';
+
+import '../../widgets/auth/auth_back_button_wg.dart';
+import '../../widgets/auth/button_auth_wg.dart';
+import '../../widgets/auth/input_field_auth_wg.dart';
 
 class SignUpPage extends StatelessWidget {
   SignUpPage({super.key});
@@ -62,7 +63,8 @@ class SignUpPage extends StatelessWidget {
                 ),
                 TextButton(
                     onPressed: () {
-                      Navigator.of(context).pushNamed(forgotPasswordPage);
+                      Navigator.of(context)
+                          .pushNamed(AppRoutes.forgotPasswordPage);
                     },
                     child: Text(
                       'Reset',

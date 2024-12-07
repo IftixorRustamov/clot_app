@@ -1,10 +1,11 @@
-import 'package:clot_app/presentation/widgets/auth_back_button_wg.dart';
+import 'package:clot_app/config/routes/app_routes.dart';
+import 'package:clot_app/presentation/widgets/auth/auth_back_button_wg.dart';
 import 'package:flutter/material.dart';
 
-import '../../config/app_responsive.dart';
-import '../../constants/app_colors.dart';
-import '../widgets/button_auth_wg.dart';
-import '../widgets/input_field_auth_wg.dart';
+import '../../../config/app_responsive.dart';
+import '../../../constants/app_colors.dart';
+import '../../widgets/auth/button_auth_wg.dart';
+import '../../widgets/auth/input_field_auth_wg.dart';
 
 class ForgotPasswordPage extends StatelessWidget {
   ForgotPasswordPage({super.key});
@@ -42,7 +43,9 @@ class ForgotPasswordPage extends StatelessWidget {
               height: AppResponsive.height(0.025),
             ),
             ButtonAuthWg(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).pushNamed(AppRoutes.passwordRecoverPage);
+              },
               text: "Continue",
             ),
           ],

@@ -14,7 +14,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     Timer(const Duration(seconds: 2), () {
-      Navigator.of(context).pushReplacementNamed(signInPage);
+      Navigator.of(context).pushReplacementNamed(AppRoutes.signInPage);
     });
     super.initState();
   }

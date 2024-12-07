@@ -1,10 +1,11 @@
 import 'package:clot_app/config/app_responsive.dart';
 import 'package:clot_app/config/routes/app_routes.dart';
 import 'package:clot_app/constants/app_colors.dart';
-import 'package:clot_app/presentation/widgets/button_auth_icon_wg.dart';
-import 'package:clot_app/presentation/widgets/button_auth_wg.dart';
-import 'package:clot_app/presentation/widgets/input_field_auth_wg.dart';
+import 'package:clot_app/presentation/widgets/auth/button_auth_icon_wg.dart';
+import 'package:clot_app/presentation/widgets/auth/input_field_auth_wg.dart';
 import 'package:flutter/material.dart';
+
+import '../../widgets/auth/button_auth_wg.dart';
 
 class SignIn extends StatelessWidget {
   SignIn({super.key});
@@ -54,7 +55,7 @@ class SignIn extends StatelessWidget {
                     ),
                     TextButton(
                         onPressed: () {
-                          Navigator.of(context).pushNamed(signUpPage);
+                          Navigator.of(context).pushNamed(AppRoutes.signUpPage);
                         },
                         child: Text(
                           'Create one',

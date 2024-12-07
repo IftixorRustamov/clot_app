@@ -1,7 +1,7 @@
 import 'package:clot_app/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 
-import '../../config/app_responsive.dart';
+import '../../../config/app_responsive.dart';
 
 class ButtonAuthIconWg extends StatelessWidget {
   final VoidCallback onPressed;
