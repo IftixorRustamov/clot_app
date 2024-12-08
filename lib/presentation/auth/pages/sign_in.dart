@@ -1,6 +1,6 @@
 import 'package:clot_app/config/app_responsive.dart';
 import 'package:clot_app/config/routes/app_routes.dart';
-import 'package:clot_app/constants/app_colors.dart';
+import 'package:clot_app/core/configs/theme/app_colors.dart';
 import 'package:clot_app/presentation/widgets/auth/button_auth_icon_wg.dart';
 import 'package:clot_app/presentation/widgets/auth/input_field_auth_wg.dart';
 import 'package:flutter/material.dart';
@@ -22,17 +22,8 @@ class SignIn extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              "Sign in",
-              style: TextStyle(
-                  color: AppColors.white,
-                  fontSize: AppResponsive.height(0.034),
-                  fontWeight: FontWeight.w700,
-                  fontFamily: 'circularStd'),
-            ),
-            SizedBox(
-              height: AppResponsive.height(0.034),
-            ),
+            _signText(context),
+            SizedBox(height: AppResponsive.height(0.034)),
             Column(
               children: [
                 const InputFieldAuthWg(hintText: "Email Address"),
@@ -99,4 +90,13 @@ class SignIn extends StatelessWidget {
       ),
     );
   }
+
+  Widget _signText(BuildContext context) => Text(
+        "Sign in",
+        style: TextStyle(
+            color: AppColors.white,
+            fontSize: AppResponsive.height(0.034),
+            fontWeight: FontWeight.w700,
+            fontFamily: 'circularStd'),
+      );
 }

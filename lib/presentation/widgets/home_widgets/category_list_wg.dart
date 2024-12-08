@@ -2,7 +2,7 @@ import 'package:clot_app/config/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 
 import '../../../config/app_responsive.dart';
-import '../../../constants/app_colors.dart';
+import '../../../core/configs/theme/app_colors.dart';
 import '../../../data/dummy_data_category.dart';
 
 class HomeCategoryWg extends StatelessWidget {

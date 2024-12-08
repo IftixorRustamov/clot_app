@@ -5,6 +5,11 @@ class AppRoutes {
   static const String forgotPasswordPage = 'forgot-password-page';
   static const String passwordRecoverPage = 'password-recover-page';
   static const String aboutYourselfPage = 'about-yourself-page';
-  static const String mainHomePage = 'main-home-page';
+  static const String homePage = 'main-home-page';
   static const String shopCategoriesPage = 'shop-categories-page';
+  static const String chosenCategoryPage = 'chosen-category-page';
+  static const String notificationsPage = 'notifications-page';
+  static const String ordersPage = 'orders-page';
+  static const String mainPage = 'main-page';
+
 }

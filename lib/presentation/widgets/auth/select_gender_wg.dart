@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../config/app_responsive.dart';
-import '../../../constants/app_colors.dart';
+import '../../../core/configs/theme/app_colors.dart';
 
 class SelectGenderWg extends StatelessWidget {
   const SelectGenderWg({super.key});

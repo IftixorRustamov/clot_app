@@ -3,7 +3,7 @@ import 'package:clot_app/presentation/widgets/auth/auth_back_button_wg.dart';
 import 'package:flutter/material.dart';
 
 import '../../../config/app_responsive.dart';
-import '../../../constants/app_colors.dart';
+import '../../../core/configs/theme/app_colors.dart';
 import '../../widgets/auth/button_auth_wg.dart';
 import '../../widgets/auth/input_field_auth_wg.dart';
 

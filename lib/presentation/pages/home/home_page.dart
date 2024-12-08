@@ -1,13 +1,13 @@
 import 'package:clot_app/config/app_responsive.dart';
-import 'package:clot_app/constants/app_colors.dart';
+import 'package:clot_app/core/configs/theme/app_colors.dart';
 import 'package:clot_app/presentation/widgets/home_widgets/category_list_wg.dart';
 import 'package:clot_app/presentation/widgets/home_widgets/home_input_field_wg.dart';
 import 'package:clot_app/presentation/widgets/home_widgets/home_top_selling_wg.dart';
 import 'package:clot_app/presentation/widgets/home_widgets/top_bar_wg.dart';
 import 'package:flutter/material.dart';
 
-class MainHomePage extends StatelessWidget {
-  MainHomePage({super.key});
+class HomePage extends StatelessWidget {
+  HomePage({super.key});
 
   final _sizedBox = SizedBox(height: AppResponsive.height(0.025));
 

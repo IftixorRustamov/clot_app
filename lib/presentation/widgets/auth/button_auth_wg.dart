@@ -1,5 +1,5 @@
 import 'package:clot_app/config/app_responsive.dart';
-import 'package:clot_app/constants/app_colors.dart';
+import 'package:clot_app/core/configs/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class ButtonAuthWg extends StatelessWidget {

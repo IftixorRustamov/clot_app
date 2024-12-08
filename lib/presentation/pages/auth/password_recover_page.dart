@@ -1,6 +1,6 @@
 import 'package:clot_app/config/app_responsive.dart';
 import 'package:clot_app/config/routes/app_routes.dart';
-import 'package:clot_app/constants/app_colors.dart';
+import 'package:clot_app/core/configs/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class PasswordRecoverPage extends StatelessWidget {

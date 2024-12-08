@@ -2,7 +2,7 @@ import 'package:clot_app/config/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 
 import '../../../config/app_responsive.dart';
-import '../../../constants/app_colors.dart';
+import '../../../core/configs/theme/app_colors.dart';
 
 import '../../widgets/auth/auth_back_button_wg.dart';
 import '../../widgets/auth/button_auth_wg.dart';
